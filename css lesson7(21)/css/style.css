@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "HYGungSoStd";
+  font-weight: bold;
+  font-style: normal;
+  src: local("HYGungSoStd Bold"),
+        local("HYGungSoStd-Bold"),
+        url("../fonts/HYGungSoStd-Bold-Alphabetic.woff2") format('woff2'),
+        url("../fonts/HYGungSoStd-Bold-Alphabetic.woff") format('woff'),
+        url("../fonts/HYGungSoStd-Bold-Alphabetic.eot") format('eot');
+  font-display: swap;
+}
+
+.greet__text-1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.greet__text-2 {
+  font-family: 'Montserrat', sans-serif; ;
+  font-weight: medium;
+  font-style: normal;
+}
+
+.greet__text-3 {
+  font-family: 'Roboto Condensed', sans-serif; ;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.greet__text-4 {
+  font-family: 'Roboto Condensed', sans-serif; ;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.greet__text-5 {
+  font-family: 'HYGungSoStd', serif; ;
+  font-weight: bold;
+  font-style: normal;
+}
