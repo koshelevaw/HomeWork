@@ -1,0 +1,17 @@
+.container {
+  padding: 40px;
+}
+
+/* .block {
+  border: 5px solid black;
+  transition-property: border-color;
+  transition-duration: 3s;
+  transition-delay: 2s;
+  border-color: blue;
+} */
+
+.block {
+  border: 5px solid black;
+  transition: border-color 3s 2s;
+  border-color: blue
+}
