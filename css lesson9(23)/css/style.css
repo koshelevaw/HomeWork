@@ -1,0 +1,22 @@
+.wrapper {
+  padding: 100px 100px 30vh;
+  height: 100vh;
+}
+
+.block {
+  height: 100%;
+  box-shadow: 0 0 10px rgb(83, 83, 83);
+  border-radius: 3px;
+}
+
+.block {
+  background-image: url("../robert-chang-cody-pose-33-styleguide-transformed.png"), radial-gradient(#99ff66, #3399ff);
+  background-size: contain;
+  background-position: center; 
+  background-repeat: no-repeat;
+} 
+
+/* .block {
+  background: url("../robert-chang-cody-pose-33-styleguide-transformed.png") 50% 50% / contain no-repeat, radial-gradient(#99ff66, #3399ff);
+}
+ */
