@@ -1,0 +1,18 @@
+.block {
+  padding: 20px;
+  height: 100%;
+}
+
+.flexbox {
+  border: 20px solid #3aa33a;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexbox__item-content {
+  background-color: #5978cf;
+  margin: 50px 0;
+  padding: 50px;
+}
