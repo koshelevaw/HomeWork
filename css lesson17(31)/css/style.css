@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+}
+
+.title {
+  padding: 100px;
+  font-size: 30px;
+}
+
+.title::before {
+  content: "";
+  position: absolute;
+  background-color: blue;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 90px;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  background-color: red;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: auto;
+}
+
+
+
