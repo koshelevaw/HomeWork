@@ -1,0 +1,21 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.grid {
+  margin-bottom: 200px;
+  padding-bottom: 200px;
+}
+
+.item {
+  border: 5px dashed #3f9733;
+  padding: .8em;
+  text-align: center;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template: auto auto / 1fr 1fr minmax(100px, 200px) 1fr 1fr;
+}
+
